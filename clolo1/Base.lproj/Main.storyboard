@@ -77,14 +77,14 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOU-fd-wDl">
-                                <rect key="frame" x="94" y="205" width="180" height="44"/>
+                                <rect key="frame" x="94" y="204" width="180" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="条件から" backgroundImage="white.gif">
+                                <state key="normal" title="エリアから" backgroundImage="white.gif">
                                     <color key="titleColor" red="0.4807449494949495" green="0.4807449494949495" blue="0.4807449494949495" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GgJ-Zf-dmY" kind="show" id="b2Z-Xi-8YJ"/>
+                                    <segue destination="GtD-BU-yDg" kind="show" id="Sqa-QS-0PL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -96,57 +96,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qYM-kQ-ufb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="888.5" y="307.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ScD-iH-yuN">
-            <objects>
-                <viewController id="GgJ-Zf-dmY" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5GA-FM-YrT"/>
-                        <viewControllerLayoutGuide type="bottom" id="UBr-I0-0xT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="PCB-gJ-DdF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="k9v-b8-Dgu">
-                                <rect key="frame" x="-84" y="-11" width="500" height="500"/>
-                            </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="psl-yY-MoN">
-                                <rect key="frame" x="-23" y="487" width="500" height="500"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-w1-O4K">
-                                <rect key="frame" x="0.0" y="581" width="375" height="53"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="検索">
-                                    <color key="titleColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dD-Z3-Pz1">
-                                <rect key="frame" x="0.0" y="146" width="375" height="53"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="　　　エリアから探す　　＞">
-                                    <color key="titleColor" red="0.31762941919191923" green="0.31762941919191923" blue="0.31762941919191923" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="GtD-BU-yDg" kind="show" id="7aQ-cs-Kkw"/>
-                                </connections>
-                            </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="駅名を入力" translatesAutoresizingMaskIntoConstraints="NO" id="EJQ-Vr-h5e">
-                                <rect key="frame" x="0.0" y="76" width="375" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wi9-h4-UZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1373.5" y="-88.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eDs-be-tMj">
@@ -224,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLe-D0-lHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1839.5" y="-329.5"/>
+            <point key="canvasLocation" x="1427.5" y="218.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kIa-oj-ugx">
@@ -257,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ah0-5Y-JjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2296.5" y="-382.5"/>
+            <point key="canvasLocation" x="2022.5" y="171.5"/>
         </scene>
     </scenes>
     <resources>

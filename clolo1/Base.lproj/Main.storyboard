@@ -60,14 +60,6 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="3el-wx-lIb">
                                 <rect key="frame" x="-63" y="491" width="500" height="499"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mba-Es-xcq">
-                                <rect key="frame" x="94" y="209" width="180" height="42"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="現在地から" backgroundImage="white.gif">
-                                    <color key="titleColor" red="0.4807449494949495" green="0.4807449494949495" blue="0.4807449494949495" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCE-f0-Scy">
                                 <rect key="frame" x="94" y="294" width="180" height="45"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -85,7 +77,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOU-fd-wDl">
-                                <rect key="frame" x="94" y="125" width="180" height="44"/>
+                                <rect key="frame" x="94" y="205" width="180" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="条件から" backgroundImage="white.gif">
                                     <color key="titleColor" red="0.4807449494949495" green="0.4807449494949495" blue="0.4807449494949495" alpha="1" colorSpace="calibratedRGB"/>
@@ -123,13 +115,6 @@
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="psl-yY-MoN">
                                 <rect key="frame" x="-23" y="487" width="500" height="500"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="駅名を入力　　　　　　　　　　　" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXC-te-Q0c">
-                                <rect key="frame" x="0.0" y="68" width="375" height="52"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-w1-O4K">
                                 <rect key="frame" x="0.0" y="581" width="375" height="53"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -150,6 +135,10 @@
                                     <segue destination="GtD-BU-yDg" kind="show" id="7aQ-cs-Kkw"/>
                                 </connections>
                             </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" text="駅名を入力" translatesAutoresizingMaskIntoConstraints="NO" id="EJQ-Vr-h5e">
+                                <rect key="frame" x="0.0" y="76" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -171,12 +160,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="BDY-gN-xdG">
-                                <rect key="frame" x="-59" y="-10" width="500" height="500"/>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbf-Fi-PgG">
                                 <rect key="frame" x="-63" y="490" width="500" height="500"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="BDY-gN-xdG">
+                                <rect key="frame" x="-63" y="-10" width="500" height="500"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeI-Ox-vdQ">
+                                <rect key="frame" x="0.0" y="164" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.80748895202020199" green="0.80748895202020199" blue="0.80748895202020199" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="下北沢エリア">
+                                    <color key="titleColor" red="0.24102351641414144" green="0.24102351641414144" blue="0.24102351641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hjC-1B-bBv" kind="show" id="U4M-bd-KEu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bl-gr-4CU">
+                                <rect key="frame" x="0.0" y="217" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.80748895200000004" green="0.80748895200000004" blue="0.80748895200000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="原宿エリア">
+                                    <color key="titleColor" red="0.24102351641414144" green="0.24102351641414144" blue="0.24102351641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0e-YR-eg4">
+                                <rect key="frame" x="0.0" y="270" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.80748895200000004" green="0.80748895200000004" blue="0.80748895200000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="高円寺エリア">
+                                    <color key="titleColor" red="0.24102351641414144" green="0.24102351641414144" blue="0.24102351641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5X-ym-Fu9">
+                                <rect key="frame" x="0.0" y="323" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.80748895200000004" green="0.80748895200000004" blue="0.80748895200000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="吉祥寺エリア">
+                                    <color key="titleColor" red="0.24102351641414144" green="0.24102351641414144" blue="0.24102351641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugE-he-zfu">
+                                <rect key="frame" x="0.0" y="376" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.80748895200000004" green="0.80748895200000004" blue="0.80748895200000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="代官山エリア">
+                                    <color key="titleColor" red="0.24102351641414144" green="0.24102351641414144" blue="0.24102351641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZD-fu-mFD">
+                                <rect key="frame" x="0.0" y="437" width="375" height="45"/>
+                                <color key="backgroundColor" red="0.80748895200000004" green="0.80748895200000004" blue="0.80748895200000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="心斎橋エリア">
+                                    <color key="titleColor" red="0.24102351641414144" green="0.24102351641414144" blue="0.24102351641414144" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -185,6 +225,39 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kLe-D0-lHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1839.5" y="-329.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kIa-oj-ugx">
+            <objects>
+                <viewController id="hjC-1B-bBv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Da-cF-4wt"/>
+                        <viewControllerLayoutGuide type="bottom" id="xhc-E5-Cmz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5GV-gZ-Jos">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSS-i7-c7b">
+                                <rect key="frame" x="-50" y="-12" width="500" height="500"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-Wr-rEa">
+                                <rect key="frame" x="-50" y="486" width="500" height="500"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="下北沢エリア" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gj-Gb-Aw4">
+                                <rect key="frame" x="0.0" y="35" width="375" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.2946456755050505" green="0.2946456755050505" blue="0.2946456755050505" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ah0-5Y-JjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2296.5" y="-382.5"/>
         </scene>
     </scenes>
     <resources>

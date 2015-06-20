@@ -199,6 +199,12 @@
                                 <color key="textColor" red="0.2946456755050505" green="0.2946456755050505" blue="0.2946456755050505" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m2L-Jr-unU">
+                                <rect key="frame" x="0.0" y="170" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="M8w-Xk-XII"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

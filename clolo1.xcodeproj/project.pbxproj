@@ -15,6 +15,11 @@
 		B16AB3091B3527CB0003BBFB /* clolo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16AB3081B3527CB0003BBFB /* clolo1Tests.swift */; };
 		B16AB3131B3527EC0003BBFB /* 01-fabric-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = B16AB3121B3527EC0003BBFB /* 01-fabric-shirt.png */; };
 		B1D1347C1B35422400DC1811 /* white.gif in Resources */ = {isa = PBXBuildFile; fileRef = B1D1347B1B35422400DC1811 /* white.gif */; };
+		B1D134821B393D8700DC1811 /* DoStyle1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D1347D1B393D8700DC1811 /* DoStyle1.jpg */; };
+		B1D134831B393D8700DC1811 /* DoStyle2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D1347E1B393D8700DC1811 /* DoStyle2.jpg */; };
+		B1D134841B393D8700DC1811 /* LANP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D1347F1B393D8700DC1811 /* LANP.jpg */; };
+		B1D134851B393D8700DC1811 /* VALON.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D134801B393D8700DC1811 /* VALON.jpg */; };
+		B1D134861B393D8700DC1811 /* ヒッチハイカー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		B16AB3081B3527CB0003BBFB /* clolo1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clolo1Tests.swift; sourceTree = "<group>"; };
 		B16AB3121B3527EC0003BBFB /* 01-fabric-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-fabric-shirt.png"; sourceTree = "<group>"; };
 		B1D1347B1B35422400DC1811 /* white.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = white.gif; sourceTree = "<group>"; };
+		B1D1347D1B393D8700DC1811 /* DoStyle1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DoStyle1.jpg; sourceTree = "<group>"; };
+		B1D1347E1B393D8700DC1811 /* DoStyle2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DoStyle2.jpg; sourceTree = "<group>"; };
+		B1D1347F1B393D8700DC1811 /* LANP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LANP.jpg; sourceTree = "<group>"; };
+		B1D134801B393D8700DC1811 /* VALON.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VALON.jpg; sourceTree = "<group>"; };
+		B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ヒッチハイカー.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,11 @@
 				B16AB2FB1B3527CB0003BBFB /* LaunchScreen.xib */,
 				B16AB3121B3527EC0003BBFB /* 01-fabric-shirt.png */,
 				B1D1347B1B35422400DC1811 /* white.gif */,
+				B1D1347D1B393D8700DC1811 /* DoStyle1.jpg */,
+				B1D1347E1B393D8700DC1811 /* DoStyle2.jpg */,
+				B1D1347F1B393D8700DC1811 /* LANP.jpg */,
+				B1D134801B393D8700DC1811 /* VALON.jpg */,
+				B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */,
 				B16AB2F01B3527CB0003BBFB /* Supporting Files */,
 			);
 			path = clolo1;
@@ -198,10 +213,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D134851B393D8700DC1811 /* VALON.jpg in Resources */,
+				B1D134821B393D8700DC1811 /* DoStyle1.jpg in Resources */,
 				B16AB2F81B3527CB0003BBFB /* Main.storyboard in Resources */,
+				B1D134841B393D8700DC1811 /* LANP.jpg in Resources */,
 				B16AB2FD1B3527CB0003BBFB /* LaunchScreen.xib in Resources */,
 				B16AB3131B3527EC0003BBFB /* 01-fabric-shirt.png in Resources */,
 				B16AB2FA1B3527CB0003BBFB /* Images.xcassets in Resources */,
+				B1D134831B393D8700DC1811 /* DoStyle2.jpg in Resources */,
+				B1D134861B393D8700DC1811 /* ヒッチハイカー.jpg in Resources */,
 				B1D1347C1B35422400DC1811 /* white.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

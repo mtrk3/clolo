@@ -119,15 +119,8 @@
                                 <rect key="frame" x="-63" y="490" width="500" height="500"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="BDY-gN-xdG">
-                                <rect key="frame" x="-63" y="-10" width="500" height="500"/>
+                                <rect key="frame" x="-63" y="0.0" width="500" height="500"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S7s-9T-ZwM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="c l o l o" id="QKN-GB-Dfp"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PeI-Ox-vdQ">
                                 <rect key="frame" x="0.0" y="217" width="375" height="45"/>
                                 <color key="backgroundColor" red="0.80748895202020199" green="0.80748895202020199" blue="0.80748895202020199" alpha="1" colorSpace="calibratedRGB"/>
@@ -151,7 +144,7 @@
         <!--View Controller-->
         <scene sceneID="Ejf-bJ-H7D">
             <objects>
-                <viewController id="JJ4-aO-L4C" sceneMemberID="viewController">
+                <viewController id="JJ4-aO-L4C" customClass="ViewController" customModule="clolo1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="66U-Nq-1Ma"/>
                         <viewControllerLayoutGuide type="bottom" id="hAr-Wu-uaz"/>
@@ -200,15 +193,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="QhH-eK-xab" id="pRT-Ok-zIT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cpu-WG-Mhu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3007.5" y="33.5"/>
+            <point key="canvasLocation" x="2972.5" y="591.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NbF-S6-L1e">
             <objects>
-                <viewController id="LjU-J1-l0D" sceneMemberID="viewController">
+                <viewController id="LjU-J1-l0D" customClass="ViewController" customModule="clolo1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9AY-2q-dEV"/>
                         <viewControllerLayoutGuide type="bottom" id="zip-v0-127"/>
@@ -257,6 +253,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="V65-uA-qts" id="7AP-cD-5DM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fB-LT-KIs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,7 +264,7 @@
         <!--View Controller-->
         <scene sceneID="kIa-oj-ugx">
             <objects>
-                <viewController id="hjC-1B-bBv" sceneMemberID="viewController">
+                <viewController id="hjC-1B-bBv" customClass="ViewController" customModule="clolo1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Da-cF-4wt"/>
                         <viewControllerLayoutGuide type="bottom" id="xhc-E5-Cmz"/>
@@ -275,7 +274,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="TSS-i7-c7b">
-                                <rect key="frame" x="-50" y="-12" width="500" height="500"/>
+                                <rect key="frame" x="-56" y="0.0" width="500" height="500"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="01-fabric-shirt.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qm7-Wr-rEa">
                                 <rect key="frame" x="-50" y="486" width="500" height="500"/>
@@ -296,32 +295,71 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="48d-Ej-QBj" id="C4R-tU-gzk">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkt-yB-O03">
-                                                    <rect key="frame" x="96" y="8" width="45" height="25"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkt-yB-O03">
+                                                    <rect key="frame" x="96" y="8" width="279" height="25"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KYZ-Qb-wXt">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZ2-CS-ZK5">
+                                                    <rect key="frame" x="96" y="32" width="279" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KYZ-Qb-wXt">
                                                     <rect key="frame" x="8" y="0.0" width="80" height="66.5"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="hjC-1B-bBv" kind="show" id="dHY-Zh-1rN"/>
-                                            <segue destination="hjC-1B-bBv" kind="show" trigger="accessoryAction" id="Aq1-Me-XfI"/>
+                                            <segue destination="AVu-74-SVw" kind="show" identifier="mySegue" id="TSK-fO-FKh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hjC-1B-bBv" id="aJh-Qq-kyy"/>
+                                    <outlet property="delegate" destination="hjC-1B-bBv" id="yj7-9w-Ahb"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="PkG-Ma-Zy7" id="6Mp-0z-Evd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ah0-5Y-JjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2522.5" y="-361.5"/>
+            <point key="canvasLocation" x="2547.5" y="-194.5"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="RJZ-7v-cim">
+            <objects>
+                <viewController id="AVu-74-SVw" customClass="DetailViewController" customModule="clolo1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fhx-k7-7Lw"/>
+                        <viewControllerLayoutGuide type="bottom" id="zeE-r4-9cW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Dy-g2-b9n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsz-EL-Jjd">
+                                <rect key="frame" x="0.0" y="72" width="375" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epN-vi-GvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3047.5" y="-241.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aNh-mN-t1D">
@@ -346,7 +384,4 @@
         <image name="01-fabric-shirt.png" width="500" height="500"/>
         <image name="white.gif" width="640" height="640"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="U4M-bd-KEu"/>
-    </inferredMetricsTieBreakers>
 </document>

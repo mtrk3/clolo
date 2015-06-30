@@ -4,14 +4,18 @@
 //
 //  Created by 奥野美波 on 2015/06/28.
 //  Copyright (c) 2015年 奥野美波. All rights reserved.
-//
+
 
 import UIKit
 
 class DetailViewController: UIViewController {
+    
+    @IBOutlet var Label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UILabel.label = selectedLabel
 
         // Do any additional setup after loading the view.
     }
@@ -21,6 +25,9 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func call(){
+        
+    }
 
     /*
     // MARK: - Navigation

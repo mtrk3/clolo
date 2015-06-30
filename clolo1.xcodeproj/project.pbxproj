@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1143CF51B42981C00946612 /* ３びきの子ねこ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CF41B42981C00946612 /* ３びきの子ねこ.jpg */; };
+		B1143D121B42982C00946612 /* BIGRUBY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CF61B42982C00946612 /* BIGRUBY.jpg */; };
+		B1143D131B42982C00946612 /* Bulsaras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CF71B42982C00946612 /* Bulsaras.jpg */; };
+		B1143D141B42982C00946612 /* FLAMINGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CF81B42982C00946612 /* FLAMINGO.jpg */; };
+		B1143D151B42982C00946612 /* GRAPEFRUITMOON.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CF91B42982C00946612 /* GRAPEFRUITMOON.jpg */; };
+		B1143D161B42982C00946612 /* GUADALUPE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CFA1B42982C00946612 /* GUADALUPE.jpg */; };
+		B1143D171B42982C00946612 /* hickory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CFB1B42982C00946612 /* hickory.jpg */; };
+		B1143D181B42982C00946612 /* HOOCHIECOOCHIE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CFC1B42982C00946612 /* HOOCHIECOOCHIE.jpg */; };
+		B1143D191B42982C00946612 /* Like.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CFD1B42982C00946612 /* Like.jpg */; };
+		B1143D1A1B42982C00946612 /* MAMMOTHJUMP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CFE1B42982C00946612 /* MAMMOTHJUMP.jpg */; };
+		B1143D1B1B42982C00946612 /* Pmax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143CFF1B42982C00946612 /* Pmax.jpg */; };
+		B1143D1C1B42982C00946612 /* Potagerlone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D001B42982C00946612 /* Potagerlone.jpg */; };
+		B1143D1F1B42982C00946612 /* Recycle&SelectShopArmadio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D031B42982C00946612 /* Recycle&SelectShopArmadio.jpg */; };
+		B1143D201B42982C00946612 /* RINKAN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D041B42982C00946612 /* RINKAN.jpg */; };
+		B1143D211B42982C00946612 /* RubyTuesday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D051B42982C00946612 /* RubyTuesday.jpg */; };
+		B1143D221B42982C00946612 /* saLad bowL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D061B42982C00946612 /* saLad bowL.jpg */; };
+		B1143D231B42982C00946612 /* SANKA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D071B42982C00946612 /* SANKA.jpg */; };
+		B1143D241B42982C00946612 /* SMOG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D081B42982C00946612 /* SMOG.jpg */; };
+		B1143D251B42982C00946612 /* soma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D091B42982C00946612 /* soma.jpg */; };
+		B1143D261B42982C00946612 /* SPOOKY?.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D0A1B42982C00946612 /* SPOOKY?.jpg */; };
+		B1143D271B42982C00946612 /* SUNNYSIDEUP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D0B1B42982C00946612 /* SUNNYSIDEUP.jpg */; };
+		B1143D281B42982C00946612 /* thalassicus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D0C1B42982C00946612 /* thalassicus.jpg */; };
+		B1143D291B42982C00946612 /* TRADE★MARK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D0D1B42982C00946612 /* TRADE★MARK.jpg */; };
+		B1143D2A1B42982C00946612 /* UTA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D0E1B42982C00946612 /* UTA.jpg */; };
+		B1143D2B1B42982C00946612 /* ヴォーテしもきた.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D0F1B42982C00946612 /* ヴォーテしもきた.jpg */; };
+		B1143D2C1B42982C00946612 /* スティックアウト.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D101B42982C00946612 /* スティックアウト.jpg */; };
+		B1143D2D1B42982C00946612 /* ばら商店.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D111B42982C00946612 /* ばら商店.jpg */; };
+		B1143D301B429D3900946612 /* RAGLAMAGLA1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D2E1B429D3900946612 /* RAGLAMAGLA1.jpg */; };
+		B1143D311B429D3900946612 /* RAGLAMAGLA2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1143D2F1B429D3900946612 /* RAGLAMAGLA2.jpg */; };
 		B16AB2F31B3527CB0003BBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16AB2F21B3527CB0003BBFB /* AppDelegate.swift */; };
 		B16AB2F51B3527CB0003BBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16AB2F41B3527CB0003BBFB /* ViewController.swift */; };
 		B16AB2F81B3527CB0003BBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16AB2F61B3527CB0003BBFB /* Main.storyboard */; };
@@ -20,6 +49,7 @@
 		B1D134841B393D8700DC1811 /* LANP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D1347F1B393D8700DC1811 /* LANP.jpg */; };
 		B1D134851B393D8700DC1811 /* VALON.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D134801B393D8700DC1811 /* VALON.jpg */; };
 		B1D134861B393D8700DC1811 /* ヒッチハイカー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */; };
+		B1D1348A1B3FA97B00DC1811 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D134891B3FA97B00DC1811 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +63,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1143CF41B42981C00946612 /* ３びきの子ねこ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "３びきの子ねこ.jpg"; path = "../../画像素材/shopimage/３びきの子ねこ.jpg"; sourceTree = "<group>"; };
+		B1143CF61B42982C00946612 /* BIGRUBY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BIGRUBY.jpg; path = "../../画像素材/shopimage/BIGRUBY.jpg"; sourceTree = "<group>"; };
+		B1143CF71B42982C00946612 /* Bulsaras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bulsaras.jpg; path = "../../画像素材/shopimage/Bulsaras.jpg"; sourceTree = "<group>"; };
+		B1143CF81B42982C00946612 /* FLAMINGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FLAMINGO.jpg; path = "../../画像素材/shopimage/FLAMINGO.jpg"; sourceTree = "<group>"; };
+		B1143CF91B42982C00946612 /* GRAPEFRUITMOON.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GRAPEFRUITMOON.jpg; path = "../../画像素材/shopimage/GRAPEFRUITMOON.jpg"; sourceTree = "<group>"; };
+		B1143CFA1B42982C00946612 /* GUADALUPE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GUADALUPE.jpg; path = "../../画像素材/shopimage/GUADALUPE.jpg"; sourceTree = "<group>"; };
+		B1143CFB1B42982C00946612 /* hickory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hickory.jpg; path = "../../画像素材/shopimage/hickory.jpg"; sourceTree = "<group>"; };
+		B1143CFC1B42982C00946612 /* HOOCHIECOOCHIE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HOOCHIECOOCHIE.jpg; path = "../../画像素材/shopimage/HOOCHIECOOCHIE.jpg"; sourceTree = "<group>"; };
+		B1143CFD1B42982C00946612 /* Like.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Like.jpg; path = "../../画像素材/shopimage/Like.jpg"; sourceTree = "<group>"; };
+		B1143CFE1B42982C00946612 /* MAMMOTHJUMP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MAMMOTHJUMP.jpg; path = "../../画像素材/shopimage/MAMMOTHJUMP.jpg"; sourceTree = "<group>"; };
+		B1143CFF1B42982C00946612 /* Pmax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pmax.jpg; path = "../../画像素材/shopimage/Pmax.jpg"; sourceTree = "<group>"; };
+		B1143D001B42982C00946612 /* Potagerlone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Potagerlone.jpg; path = "../../画像素材/shopimage/Potagerlone.jpg"; sourceTree = "<group>"; };
+		B1143D031B42982C00946612 /* Recycle&SelectShopArmadio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Recycle&SelectShopArmadio.jpg"; path = "../../画像素材/shopimage/Recycle&SelectShopArmadio.jpg"; sourceTree = "<group>"; };
+		B1143D041B42982C00946612 /* RINKAN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RINKAN.jpg; path = "../../画像素材/shopimage/RINKAN.jpg"; sourceTree = "<group>"; };
+		B1143D051B42982C00946612 /* RubyTuesday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RubyTuesday.jpg; path = "../../画像素材/shopimage/RubyTuesday.jpg"; sourceTree = "<group>"; };
+		B1143D061B42982C00946612 /* saLad bowL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "saLad bowL.jpg"; path = "../../画像素材/shopimage/saLad bowL.jpg"; sourceTree = "<group>"; };
+		B1143D071B42982C00946612 /* SANKA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SANKA.jpg; path = "../../画像素材/shopimage/SANKA.jpg"; sourceTree = "<group>"; };
+		B1143D081B42982C00946612 /* SMOG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SMOG.jpg; path = "../../画像素材/shopimage/SMOG.jpg"; sourceTree = "<group>"; };
+		B1143D091B42982C00946612 /* soma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = soma.jpg; path = "../../画像素材/shopimage/soma.jpg"; sourceTree = "<group>"; };
+		B1143D0A1B42982C00946612 /* SPOOKY?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "SPOOKY?.jpg"; path = "../../画像素材/shopimage/SPOOKY?.jpg"; sourceTree = "<group>"; };
+		B1143D0B1B42982C00946612 /* SUNNYSIDEUP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SUNNYSIDEUP.jpg; path = "../../画像素材/shopimage/SUNNYSIDEUP.jpg"; sourceTree = "<group>"; };
+		B1143D0C1B42982C00946612 /* thalassicus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thalassicus.jpg; path = "../../画像素材/shopimage/thalassicus.jpg"; sourceTree = "<group>"; };
+		B1143D0D1B42982C00946612 /* TRADE★MARK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TRADE★MARK.jpg"; path = "../../画像素材/shopimage/TRADE★MARK.jpg"; sourceTree = "<group>"; };
+		B1143D0E1B42982C00946612 /* UTA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = UTA.jpg; path = "../../画像素材/shopimage/UTA.jpg"; sourceTree = "<group>"; };
+		B1143D0F1B42982C00946612 /* ヴォーテしもきた.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ヴォーテしもきた.jpg"; path = "../../画像素材/shopimage/ヴォーテしもきた.jpg"; sourceTree = "<group>"; };
+		B1143D101B42982C00946612 /* スティックアウト.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "スティックアウト.jpg"; path = "../../画像素材/shopimage/スティックアウト.jpg"; sourceTree = "<group>"; };
+		B1143D111B42982C00946612 /* ばら商店.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ばら商店.jpg"; path = "../../画像素材/shopimage/ばら商店.jpg"; sourceTree = "<group>"; };
+		B1143D2E1B429D3900946612 /* RAGLAMAGLA1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RAGLAMAGLA1.jpg; path = "../../画像素材/shopimage/RAGLAMAGLA1.jpg"; sourceTree = "<group>"; };
+		B1143D2F1B429D3900946612 /* RAGLAMAGLA2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RAGLAMAGLA2.jpg; path = "../../画像素材/shopimage/RAGLAMAGLA2.jpg"; sourceTree = "<group>"; };
 		B16AB2ED1B3527CB0003BBFB /* clolo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clolo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16AB2F11B3527CB0003BBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B16AB2F21B3527CB0003BBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +109,7 @@
 		B1D1347F1B393D8700DC1811 /* LANP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LANP.jpg; sourceTree = "<group>"; };
 		B1D134801B393D8700DC1811 /* VALON.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VALON.jpg; sourceTree = "<group>"; };
 		B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ヒッチハイカー.jpg"; sourceTree = "<group>"; };
+		B1D134891B3FA97B00DC1811 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +153,7 @@
 			children = (
 				B16AB2F21B3527CB0003BBFB /* AppDelegate.swift */,
 				B16AB2F41B3527CB0003BBFB /* ViewController.swift */,
+				B1D134891B3FA97B00DC1811 /* DetailViewController.swift */,
 				B16AB2F61B3527CB0003BBFB /* Main.storyboard */,
 				B16AB2F91B3527CB0003BBFB /* Images.xcassets */,
 				B16AB2FB1B3527CB0003BBFB /* LaunchScreen.xib */,
@@ -103,6 +164,35 @@
 				B1D1347F1B393D8700DC1811 /* LANP.jpg */,
 				B1D134801B393D8700DC1811 /* VALON.jpg */,
 				B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */,
+				B1143CF41B42981C00946612 /* ３びきの子ねこ.jpg */,
+				B1143CF61B42982C00946612 /* BIGRUBY.jpg */,
+				B1143CF71B42982C00946612 /* Bulsaras.jpg */,
+				B1143CF81B42982C00946612 /* FLAMINGO.jpg */,
+				B1143CF91B42982C00946612 /* GRAPEFRUITMOON.jpg */,
+				B1143CFA1B42982C00946612 /* GUADALUPE.jpg */,
+				B1143CFB1B42982C00946612 /* hickory.jpg */,
+				B1143CFC1B42982C00946612 /* HOOCHIECOOCHIE.jpg */,
+				B1143CFD1B42982C00946612 /* Like.jpg */,
+				B1143CFE1B42982C00946612 /* MAMMOTHJUMP.jpg */,
+				B1143CFF1B42982C00946612 /* Pmax.jpg */,
+				B1143D001B42982C00946612 /* Potagerlone.jpg */,
+				B1143D031B42982C00946612 /* Recycle&SelectShopArmadio.jpg */,
+				B1143D2E1B429D3900946612 /* RAGLAMAGLA1.jpg */,
+				B1143D2F1B429D3900946612 /* RAGLAMAGLA2.jpg */,
+				B1143D041B42982C00946612 /* RINKAN.jpg */,
+				B1143D051B42982C00946612 /* RubyTuesday.jpg */,
+				B1143D061B42982C00946612 /* saLad bowL.jpg */,
+				B1143D071B42982C00946612 /* SANKA.jpg */,
+				B1143D081B42982C00946612 /* SMOG.jpg */,
+				B1143D091B42982C00946612 /* soma.jpg */,
+				B1143D0A1B42982C00946612 /* SPOOKY?.jpg */,
+				B1143D0B1B42982C00946612 /* SUNNYSIDEUP.jpg */,
+				B1143D0C1B42982C00946612 /* thalassicus.jpg */,
+				B1143D0D1B42982C00946612 /* TRADE★MARK.jpg */,
+				B1143D0E1B42982C00946612 /* UTA.jpg */,
+				B1143D0F1B42982C00946612 /* ヴォーテしもきた.jpg */,
+				B1143D101B42982C00946612 /* スティックアウト.jpg */,
+				B1143D111B42982C00946612 /* ばら商店.jpg */,
 				B16AB2F01B3527CB0003BBFB /* Supporting Files */,
 			);
 			path = clolo1;
@@ -213,16 +303,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1143D301B429D3900946612 /* RAGLAMAGLA1.jpg in Resources */,
+				B1143D2A1B42982C00946612 /* UTA.jpg in Resources */,
+				B1143D2D1B42982C00946612 /* ばら商店.jpg in Resources */,
+				B1143D151B42982C00946612 /* GRAPEFRUITMOON.jpg in Resources */,
 				B1D134851B393D8700DC1811 /* VALON.jpg in Resources */,
+				B1143D1B1B42982C00946612 /* Pmax.jpg in Resources */,
 				B1D134821B393D8700DC1811 /* DoStyle1.jpg in Resources */,
 				B16AB2F81B3527CB0003BBFB /* Main.storyboard in Resources */,
+				B1143D231B42982C00946612 /* SANKA.jpg in Resources */,
+				B1143D211B42982C00946612 /* RubyTuesday.jpg in Resources */,
+				B1143D161B42982C00946612 /* GUADALUPE.jpg in Resources */,
+				B1143D191B42982C00946612 /* Like.jpg in Resources */,
 				B1D134841B393D8700DC1811 /* LANP.jpg in Resources */,
+				B1143D2B1B42982C00946612 /* ヴォーテしもきた.jpg in Resources */,
+				B1143D201B42982C00946612 /* RINKAN.jpg in Resources */,
+				B1143CF51B42981C00946612 /* ３びきの子ねこ.jpg in Resources */,
+				B1143D171B42982C00946612 /* hickory.jpg in Resources */,
 				B16AB2FD1B3527CB0003BBFB /* LaunchScreen.xib in Resources */,
+				B1143D121B42982C00946612 /* BIGRUBY.jpg in Resources */,
+				B1143D181B42982C00946612 /* HOOCHIECOOCHIE.jpg in Resources */,
+				B1143D241B42982C00946612 /* SMOG.jpg in Resources */,
+				B1143D271B42982C00946612 /* SUNNYSIDEUP.jpg in Resources */,
+				B1143D281B42982C00946612 /* thalassicus.jpg in Resources */,
 				B16AB3131B3527EC0003BBFB /* 01-fabric-shirt.png in Resources */,
+				B1143D1F1B42982C00946612 /* Recycle&SelectShopArmadio.jpg in Resources */,
+				B1143D141B42982C00946612 /* FLAMINGO.jpg in Resources */,
+				B1143D251B42982C00946612 /* soma.jpg in Resources */,
 				B16AB2FA1B3527CB0003BBFB /* Images.xcassets in Resources */,
+				B1143D131B42982C00946612 /* Bulsaras.jpg in Resources */,
+				B1143D221B42982C00946612 /* saLad bowL.jpg in Resources */,
+				B1143D291B42982C00946612 /* TRADE★MARK.jpg in Resources */,
 				B1D134831B393D8700DC1811 /* DoStyle2.jpg in Resources */,
+				B1143D1A1B42982C00946612 /* MAMMOTHJUMP.jpg in Resources */,
 				B1D134861B393D8700DC1811 /* ヒッチハイカー.jpg in Resources */,
+				B1143D311B429D3900946612 /* RAGLAMAGLA2.jpg in Resources */,
+				B1143D1C1B42982C00946612 /* Potagerlone.jpg in Resources */,
+				B1143D261B42982C00946612 /* SPOOKY?.jpg in Resources */,
 				B1D1347C1B35422400DC1811 /* white.gif in Resources */,
+				B1143D2C1B42982C00946612 /* スティックアウト.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D1348A1B3FA97B00DC1811 /* DetailViewController.swift in Sources */,
 				B16AB2F51B3527CB0003BBFB /* ViewController.swift in Sources */,
 				B16AB2F31B3527CB0003BBFB /* AppDelegate.swift in Sources */,
 			);

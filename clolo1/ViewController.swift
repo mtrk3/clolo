@@ -58,23 +58,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
     
-    // Cell が選択された場合
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath:NSIndexPath) {
-        // [indexPath.row] からラベル名を探し、UILabel を設定
-        selectedLabel = UILabel();"\(label1Array[indexPath.row])"
-        
-        // DetailViewController へ遷移するために Segue を呼び出す
-        performSegueWithIdentifier("toDetailViewController",sender: nil)
-    }
-    
-    // Segue 準備
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if segue.identifier == "toDetailViewController" {
-            let detailVC: DetailViewController = segue.destinationViewController as! DetailViewController
-            // DetailViewController のselectedLabelに選択されたラベル名を設定する
-//            DetailViewController.selectedLabel = selectedLabel
-        }
-    }
     
     
         override func didReceiveMemoryWarning() {

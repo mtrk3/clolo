@@ -72,7 +72,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if segue.identifier == "toDetailViewController" {
             let detailVC: DetailViewController = segue.destinationViewController as! DetailViewController
             // DetailViewController のselectedLabelに選択されたラベル名を設定する
-            DetailViewController.selectedLabel = selectedLabel
+//            DetailViewController.selectedLabel = selectedLabel
         }
     }
     

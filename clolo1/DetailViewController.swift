@@ -15,7 +15,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UILabel.label = selectedLabel
+//        UILabel.label = selectedLabel
 
         // Do any additional setup after loading the view.
     }

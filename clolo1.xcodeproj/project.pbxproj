@@ -22,6 +22,7 @@
 		B1D134861B393D8700DC1811 /* ヒッチハイカー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */; };
 		B1F8F4AC1B42C4BC00D26817 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8F4AB1B42C4BC00D26817 /* DetailViewController.swift */; };
 		B1F8F4AE1B42DB9000D26817 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8F4AD1B42DB9000D26817 /* LogViewController.swift */; };
+		B1F8F4B01B44336A00D26817 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F8F4AF1B44336A00D26817 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B1D134811B393D8700DC1811 /* ヒッチハイカー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ヒッチハイカー.jpg"; sourceTree = "<group>"; };
 		B1F8F4AB1B42C4BC00D26817 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B1F8F4AD1B42DB9000D26817 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		B1F8F4AF1B44336A00D26817 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				B16AB2F21B3527CB0003BBFB /* AppDelegate.swift */,
 				B16AB2F41B3527CB0003BBFB /* ViewController.swift */,
 				B1F8F4AB1B42C4BC00D26817 /* DetailViewController.swift */,
+				B1F8F4AF1B44336A00D26817 /* SecondViewController.swift */,
 				B1F8F4AD1B42DB9000D26817 /* LogViewController.swift */,
 				B16AB2F61B3527CB0003BBFB /* Main.storyboard */,
 				B16AB2F91B3527CB0003BBFB /* Images.xcassets */,
@@ -249,6 +252,7 @@
 				B1F8F4AC1B42C4BC00D26817 /* DetailViewController.swift in Sources */,
 				B16AB2F51B3527CB0003BBFB /* ViewController.swift in Sources */,
 				B16AB2F31B3527CB0003BBFB /* AppDelegate.swift in Sources */,
+				B1F8F4B01B44336A00D26817 /* SecondViewController.swift in Sources */,
 				B1F8F4AE1B42DB9000D26817 /* LogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,9 +16,15 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         self.pickImageFromLibrary()
     }
     
-//    
+    
+//    電話部分
+//
 //    let callnumberArray: NSArray = ["tel://0334149089","tel://0357909998","tel://0357909998","tel://0337954177","tel://0368040660","tel://0000000000","tel://0000000000","tel://0334108563"]
 //
+    
+    @IBAction func call(){
+        UIApplication.sharedApplication().openURL(NSURL(string: "tel://0357909998")!)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +35,7 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     // 写真を撮ってそれを選択
     func pickImageFromCamera() {
